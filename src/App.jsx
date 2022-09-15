@@ -1,14 +1,16 @@
 import Navbar from "./components/Navbar";
 import "./app.css";
-import Home from "./components/Home";
 import Post from "./pages/Post";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
 
 const App = () => {
   return <div>
     <Navbar />
     {/* <Home /> */}
-    <Post />
-    </div>;
+    {/* <Post /> */}
+    <Login />
+  </div>;
 };
 
 export default App;

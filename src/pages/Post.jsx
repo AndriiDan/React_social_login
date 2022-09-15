@@ -1,7 +1,7 @@
 import { posts } from "../data";
 
 const Post = () => {
-    const post = posts[1];
+    const post = posts[2];
     return (
         <div className="post">
             <img src={post.img} alt="" className="postImg" />

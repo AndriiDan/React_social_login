@@ -71,7 +71,7 @@
 .post {
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
 }
 
 .postImg {
@@ -93,4 +93,115 @@
     padding-top: 50px;
     font-size: 18px;
     line-height: 24px;
+}
+
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 60%;
+    height: 75%;
+    -webkit-box-shadow: 5px 6px 11px 0px rgba(0, 0, 0, 0.59);
+    box-shadow: 5px 6px 11px 0px rgba(0, 0, 0, 0.59);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.left,
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.or {
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    padding: 10px;
+    color: gray;
+    background-color: white;
+    font-weight: bold;
+}
+
+.line {
+    width: 0.5px;
+    height: 75%;
+    background-color: lightgray;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    z-index: -1;
+}
+
+.loginButton {
+    width: 150px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.loginButton:last-child {
+    margin-bottom: 0;
+}
+
+.google {
+    background-color: #eb8b7bdc;
+}
+
+.facebook {
+    /* background-color: #134692e0; */
+    background-color: #5282cae0;
+}
+
+.github {
+    background-color: black;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+input {
+    width: 150px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.submit {
+    width: 150px;
+    background-color: rgba(128, 0, 128, 0.671);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+
+.liginTitle {
+    position: absolute;
+    top: 130px;
+    color: lightgray;
 }
