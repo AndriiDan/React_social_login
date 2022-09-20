@@ -1,7 +1,10 @@
 const express = require("express");
+const passportSetup = require("./passport");
+// require("./passport");
 const passport = require("passport");
 const cors = require("cors");
 const cookieSession = require("cookie-session");
+const authRoute = require("./routes/auth");
 
 
 // create express app
@@ -21,9 +24,11 @@ app.use(passport.session());
 app.use(cors({
     // client server
     origin: "http://localhost:3000",
-    maehods: "GET,POST,PUT,DELETE",
+    methods: "GET,POST,PUT,DELETE",
     credentials: true,
-}))
+}));
+
+app.use("/auth", authRoute);
 
 console.log("hello");
 
