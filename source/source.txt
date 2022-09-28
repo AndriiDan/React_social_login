@@ -1,0 +1,8 @@
+Source Code: https://github.com/safak/youtube/tree/react-social-login
+
+https://www.youtube.com/watch?v=7K9kDrtc4S8
+https://www.passportjs.org/sponsors/
+
+https://console.cloud.google.com/apis/credentials/oauthclient/737459794686-is409vhe0v4qip7aog387j5crer27jvu.apps.googleusercontent.com?authuser=1&project=my-first-project-363110&supportedpurview=project
+
+https://github.com/settings/applications/
